@@ -73,7 +73,7 @@ var changingColor5 = 30;
 		 		<div
 		      	class="heart"
 		      	style="margin-left: 65%;"
-		 		></div>5
+		 		></div>
 		 		<div
 		      	class="heart"
 		      	style="margin-left: 85%;"
