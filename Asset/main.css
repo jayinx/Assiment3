@@ -28,6 +28,7 @@ body, html{
   font-size: 6em;
   color: #FF8396;
   z-index: 2000;
+  text-align: center;
 }
 
 
@@ -37,7 +38,7 @@ body, html{
 	  margin-right: auto;
 	  margin-top: auto;
       position: relative;
-      display: block;
+      display: inline-block;
       color: #FFCE00;
       width: 0px;
       height: 0px;
@@ -76,7 +77,8 @@ body, html{
     }
 
     .heart {
-      position: relative;
+      position: absolute;
+      display: inline-block;
       width: 100px;
       height: 90px;
     }

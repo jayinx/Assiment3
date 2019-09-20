@@ -12,39 +12,42 @@ var changingColor5 = 30;
 		changingColor2 = changingColor2 + 50;
 		changingColor3 = changingColor3 + 15;
 		changingColor4 = changingColor4 + 20;
-		changingColor5 = changingColor5 + 30
+		changingColor5 = changingColor5 + 30;
 
 		 var myModule = `
 
 		 <div
 		 	class="module"
-		 	style="background-color:rgb(${changingColor},0,${changingColor2}); 
+		 	style="background-color:rgb(${changingColor},0,${changingColor2});
+		 	padding-top:5%; 
+		 	text-align:center;
+		 	margin:0,auto;
 		 	transform: rotate (0.5deg);"
 		 >
 
 		 		<div
 		      	class="star-five"
-		      	style="transform: scale(0.6,0.6); margin-left: 0%; "
+		      	style="transform: scale(0.6,0.6); "
 		 		></div>
 
 		 		<div
 		      	class="star-five"
-		      	style="transform: scale(0.5,0.5); margin-left: 20%;"
+		      	style="transform: scale(0.5,0.5); "
 		 		></div>
 
 		 		<div
 		      	class="star-five"
-		      	style="transform: scale(0.6,0.6); margin-left: 40%;"
+		      	style="transform: scale(0.6,0.6); "
 		 		></div>
 
 		 		<div
 		      	class="star-five"
-		      	style="transform: scale(0.5,0.5); margin-left: 60%;"
+		      	style="transform: scale(0.5,0.5); "
 		 		></div>
 
 		 		<div
 		      	class="star-five"
-		      	style="transform: scale(0.6,0.6); margin-left: 80%;"
+		      	style="transform: scale(0.6,0.6);"
 		 		></div>
 
 
@@ -52,7 +55,7 @@ var changingColor5 = 30;
 		 `;
 		var mySecondModule =`<div
 		 	class="module"
-		 	style="background-color:rgb(${changingColor3},${changingColor4},248);"
+		 	style="background-color:rgb(${changingColor3},${changingColor4},248); padding-top:5%; "
 		 >
 
 		 <div
